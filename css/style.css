@@ -1,0 +1,1787 @@
+
+
+
+ul li {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header .logo img {
+  width: 90%;
+  margin-top: 10px;
+}
+
+.header .icon-fix {
+  display: flex;
+}
+
+.menu ul {
+  margin-top: 10px;
+  padding: 0px;
+  display: flex;
+  list-style-type: none;
+}
+
+.menu ul li a {
+  color: rgb(39, 39, 39);
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 10px 5px;
+  position: relative;
+  transition: all 0.5s ease 0s;
+}
+
+.hording-service {
+  margin-top: 55px;
+}
+
+.menu a:hover {
+  background-color: rgb(75, 73, 74);
+  color: white !important;
+}
+
+.menu a::before {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  width: 12px;
+  height: 12px;
+  border-style: solid;
+  border-color: rgb(233, 30, 99);
+  border-image: initial;
+  border-width: 0px 0px 3px 3px;
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.menu a:hover::before {
+  opacity: 1;
+  bottom: -8px;
+  left: -8px;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 12px;
+  height: 12px;
+  border-style: solid;
+  border-color: rgb(233, 30, 99);
+  border-image: initial;
+  border-width: 3px 3px 0px 0px;
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.menu a:hover::after {
+  opacity: 1;
+  top: -8px;
+  right: -8px;
+} 
+
+.header .icon-img li {
+  list-style: none;
+}
+
+.header .icon-img ul {
+  display: flex;
+  margin-top: 5px;
+}
+
+.header .icon-img img {
+  margin: 10px;
+}
+
+.header .facebook {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.header .facebook img {
+  margin: 5px;
+}
+
+.banner .banner-img img {
+  width: 68%;
+  margin-left: 100px;
+  z-index: 0;
+  position: relative;
+  bottom: 33px;
+}
+
+
+.bgg {
+  background-image: url("/image/banner-bg.png");
+  background-repeat: no-repeat;
+  z-index: -10;
+  display: block;
+}
+
+.banner .banner-img::after {
+  content: "";
+  background-image: url("../image/banner-circal.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.banner {
+  position: relative;
+  z-index: 12;
+  min-height: 20px;
+  top: 40px;
+}
+
+.banner-text {
+  position: relative;
+  top: 10px;
+}
+
+.banner-text h2 {
+  font-size: 40px;
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 20px;
+}
+
+.banner-text p {
+  font-size: 17px;
+}
+
+.banner-text button {
+  background-color: rgb(22, 56, 114);
+  position: relative;
+  margin-top: 20px;
+  padding: 9px 25px;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.man-sarvic {
+  position: relative;
+  margin-top: 77px;
+}
+
+.man-text button {
+  background-color: rgb(22, 56, 114);
+  position: relative;
+  margin-top: 20px;
+  padding: 9px 25px;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.man-img img {
+  width: 80%;
+  position: relative;
+  bottom: 40px;
+}
+
+.man-text {
+  position: relative;
+}
+
+.man-text h2::after {
+  content: url("/image/laine.png");
+  overflow: hidden;
+  position: absolute;
+  top: 11px;
+  right: 20rem;
+  left: 0px;
+  transform: scale(0.8);
+}
+
+.man-text h2 {
+  font-size: 40px;
+  font-family: Montserrat, sans-serif;
+  margin: 20px;
+}
+
+.book-text h2 {
+  text-align: center;
+  position: relative;
+  font-family: Montserrat, sans-serif;
+}
+
+.book-text h2::after {
+  content: url("/image/laine.png");
+  overflow: hidden;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  left: 0px;
+  text-align: center;
+  display: block;
+  transform: scale(0.7);
+}
+
+.book-section .chet {
+  position: relative;
+}
+
+.book-section {
+  width: 100%;
+  height: auto;
+}
+
+.book-section .chet img {
+  width: 60%;
+}
+
+.book-section .chet h4 {
+  font-size: 30px;
+  font-family: Montserrat, sans-serif;
+}
+
+.book-section .chet p {
+  margin: 30px 0px;
+}
+
+.book-section .chet button {
+  background-color: rgb(22, 56, 114);
+  position: relative;
+  margin-top: 20px;
+  padding: 9px 25px;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.book-section .barish {
+  margin-top: 56px;
+  position: relative;
+}
+
+.book-section .barish img {
+  width: 60%;
+}
+
+.book-section .barish h4 {
+  font-size: 30px;
+  font-family: Montserrat, sans-serif;
+}
+
+.book-section .barish p {
+  margin: 30px 0px;
+}
+
+.book-section .barish button {
+  background-color: rgb(22, 56, 114);
+  position: relative;
+  margin-top: 20px;
+  padding: 9px 25px;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.contain111 {
+  margin-top: 3%;
+}
+.manish{
+  margin-top: 40px;
+}
+
+.celendr {
+  width: 80%;
+  position: relative;
+  background-color: rgb(154, 210, 224);
+  border-radius: 10px;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-left: 11%;
+}
+
+.card22 {
+  margin-top: 3%;
+}
+.responsive-map{
+  overflow: hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .responsive-map iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
+.card22 .min-sarvic-img .bg-image111 {
+  background-color: rgb(154, 210, 224);
+  height: 420px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px 0px 0px 30px;
+  padding-right: 0px;
+}
+
+.input-1 {
+  display: flex;
+}
+
+.celendr .celend-img img {
+  margin-top: 20px;
+}
+
+.celendr .celend-text {
+  margin-top: 10%;
+}
+
+.celendr .celend-text h1 {
+  color: rgb(255, 255, 255);
+}
+
+.celendr .celend-text h4 {
+  color: rgb(255, 255, 255);
+}
+
+.celendr .celend-text p {
+  color: rgb(255, 255, 255);
+}
+
+.celendr::before {
+  content: url("/image/sedow.png");
+  overflow: hidden;
+  position: absolute;
+  left: 40px;
+  width: 100%;
+}
+
+.celendr .celend-text input {
+  padding: 4px 3px;
+}
+
+.celendr .celend-text button {
+  background-color: rgb(22, 56, 114);
+  padding: 4px 15px;
+  position: relative;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+}
+
+.min-sarvic-img .heding-tex {
+  position: relative;
+  text-align: center;
+  padding-bottom: 49px;
+}
+
+.min-sarvic-img .heding-tex h1 {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 40px;
+}
+
+.min-sarvic-img .heding-tex p {
+  font-size: 20px;
+}
+
+.min-sarvic-img .vikin {
+  min-height: 430px;
+  padding: 0px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 10px;
+  border-radius: 30px;
+}
+
+.min-sarvic-img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.min-sarvic-img .min-card {
+  display: flex;
+}
+
+.min-sarvic-img .mevada h2 {
+  margin-bottom: 30px;
+  font-family: Montserrat, sans-serif;
+  padding-top: 20px;
+}
+
+.min-sarvic-img h5 {
+  color: rgb(37, 37, 122);
+}
+
+.min-sarvic-img .last-btn button {
+  background-color: rgb(190, 227, 236);
+  position: relative;
+  margin-top: 20px;
+  padding: 9px 25px;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.min-sarvic-img .last-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.min-sarvic-img .button-raj .button-3 {
+  background-color: rgb(22, 56, 114);
+  position: relative;
+  margin-top: 20px;
+  padding: 9px 25px;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.min-sarvic-img .button-4 {
+  margin-left: 10px;
+  position: relative;
+  margin-top: 20px;
+  padding: 9px 25px;
+  text-align: center;
+  color: black;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.min-sarvic-img .bg-image {
+  background-color: rgb(154, 210, 224);
+  height: 420px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 30px 30px 0px;
+  padding-right: 0px;
+}
+
+.min-sarvic-img .goltar {
+  padding-left: 40px;
+  overflow: hidden;
+  min-height: 410px;
+}
+
+.image-wrapper {
+  width: 100%;
+  overflow: hidden;
+  max-height: 300px;
+  position: relative;
+}
+
+.testimonialt-section {
+  margin-top: 50px;
+}
+
+.gellry-tex h1 {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+}
+
+.gellry-tex {
+  margin-top: 50px;
+}
+
+.gellry-tex h1::after {
+  content: url("/image/laine.png");
+  overflow: hidden;
+  position: relative;
+  inset: -30px 0px 0px;
+  text-align: center;
+  display: block;
+  transform: scale(0.9);
+}
+
+.gellry .img-gellry img {
+  width: 100%;
+}
+
+.gellry .last-btn button {
+  background-color: rgb(190, 227, 236);
+  position: relative;
+  margin-top: 30px;
+  padding: 9px 25px;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.gellry .last-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locetion .contatti h2 {
+  margin-left: 4%;
+}
+
+.locetion .rahul {
+  margin-top: 10%;
+  margin-bottom: 9%;
+}
+
+.locetion .d-collem a {
+  background-color: white;
+  position: relative;
+  padding: 10px 20px;
+  text-align: center;
+  color: black;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 10px;
+}
+
+.locetion .d-collem {
+  margin: 30px 0px;
+}
+
+.locetion-bg {
+  background-color: rgb(234, 248, 250);
+  margin-top: 7%;
+}
+
+.locetion .d-collem a,
+img {
+  padding-right: 20px;
+  text-align: center;
+}
+
+.locetion .emali-sarvic a {
+  background-color: white;
+  position: relative;
+  padding: 10px 20px;
+  text-align: center;
+  color: black;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 10px;
+}
+
+.locetion .emali-sarvic {
+  margin-bottom: 30px;
+}
+
+.locetion .forome input::placeholder {
+  padding-left: 20px;
+}
+
+.locetion .forome label {
+  margin-top: 10px;
+}
+
+.forome input {
+  display: block;
+  width: 90%;
+  padding: 5px 0px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 10px;
+}
+
+.forome h2 {
+  margin-bottom: 20px;
+}
+
+.locetion .forome .bg-about {
+  background-color: rgb(203, 238, 246);
+  padding-left: 10%;
+  padding: 45px 30px;
+}
+
+.locetion .forome textarea {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 10px;
+  display: block;
+  width: 90%;
+}
+
+.locetion .forome .bravo {
+  display: flex;
+  justify-content: right;
+  margin-right: 40px;
+}
+
+.locetion .forome .bravo button {
+  border-radius: 15px;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+#map-canvas {
+  width: 300px;
+  height: 200px;
+}
+.locetion .map-text span {
+  color: rgb(10, 10, 248);
+}
+/* ******************************* */
+.banner-photo img{
+  max-width: 80%;
+  margin-bottom: 40px !important;
+}
+.cenatr-text{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  background-color: black;
+  margin-top: 0px;
+}
+
+.footer-srvice .footer-img img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.footer-srvice .footer-bg {
+  background-image: url("/image/bg-raund.png");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  min-height: 200px;
+  z-index: -4;
+}
+
+.footer-srvice .footer-img p {
+  color: rgb(255, 255, 255);
+}
+
+.footer-srvice .list-footer h2 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.footer-srvice .list-footer li {
+  list-style: none;
+  color: rgb(255, 255, 255);
+}
+
+.footer-srvice .footer-one h2 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.footer-srvice .footer-one li {
+  list-style: none;
+  color: rgb(255, 255, 255);
+}
+
+.footer-srvice .footer-tow h2 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.footer-srvice .footer-tow li {
+  list-style: none;
+  color: rgb(255, 255, 255);
+}
+
+.footer-srvice .riyan {
+  margin-top: 40px;
+}
+
+/* ************** chi siamio html*********************** */
+
+/* ****************************22222******** */
+.method .mask-img img {
+  width: 100%;
+  margin-left: 7px;
+}
+.mean-nav{
+  overflow: hidden;
+}
+.method .makd-text p {
+  margin-top: 30px;
+  font-size: 22px;
+}
+.second {
+  margin-top: 30px;
+}
+.forma h2::after {
+  content: url("/image/laine.png");
+  overflow: hidden;
+  position: relative;
+  inset: -25px 0px 0px;
+  text-align: center;
+  display: block;
+  transform: scale(0.6);
+}
+.forma h2 {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+}
+
+/* *******section-2********** */
+
+.Dialogico .prem {
+  text-align: center;
+}
+.Dialogico .prem img {
+  margin-bottom: 30px;
+}
+.Dialogico .psicologi h4 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.Dialogico .psicologi {
+  margin-left: 30px;
+}
+/* .Dialogico .button-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.Dialogico .button-menu .button-faiv {
+  background-color: rgb(22, 56, 114);
+  position: relative;
+  margin-bottom: 35px;
+  margin-top: 20px;
+  padding: 9px 35px;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+  margin-left: 20px;
+}
+.Dialogico .button-menu .button-six {
+  position: relative;
+  margin-top: 20px;
+  padding: 9px 25px;
+  text-align: center;
+  color: black;
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 35px;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+}
+.Dialogico .vishal {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 25px;
+}
+
+.Dialogico .vishal-1 {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 25px;
+}
+
+/* ************layer-sravic****** */
+
+.layer-sravic .layer-text h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.layer-sravic .layer-text {
+  margin-left: 20px;
+  padding: 0px;
+}
+.layer-sravic .layer-button button {
+  background-color: rgb(22, 56, 114);
+  position: relative;
+  margin-bottom: 35px;
+  margin-top: 20px;
+  padding: 9px 35px;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+  margin-left: 0px;
+}
+
+.layer-about {
+  margin: 50px 0px;
+  margin-bottom: 10%;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+
+  max-width: 820px;
+  margin-left: 20%;
+  margin-bottom: 50px;
+}
+
+.card--1 .card__img,
+.card--1 .card__img--hover {
+  background-image: url("/image/ramesh.png");
+}
+
+.card--2 .card__img,
+.card--2 .card__img--hover {
+  background-image: url("/image/mevadark.png");
+}
+.card--3 .card__img,
+.card--3 .card__img--hover {
+  background-image: url("/image/santi.png");
+}
+
+.card__like {
+  width: 18px;
+}
+
+.card__clock {
+  width: 15px;
+  vertical-align: middle;
+  fill: #ad7d52;
+}
+.card__time {
+  font-size: 12px;
+  color: #ad7d52;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.card__clock-info {
+  float: right;
+}
+
+.card__img {
+  visibility: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card__info-hover {
+  position: absolute;
+  padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.card__img--hover {
+  transition: 0.2s all ease-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  top: 0;
+}
+
+.card {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1, 1.1);
+}
+
+.card__info {
+  z-index: 2;
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+}
+
+.card__category {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+}
+
+.card__title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Roboto Slab", serif;
+}
+.section.service {
+  padding: 44px 0px;
+}
+
+.card__by {
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.card__author {
+  font-weight: 600;
+  text-decoration: none;
+  color: #ad7d52;
+}
+
+.card:hover .card__img--hover {
+  height: 100%;
+  opacity: 0.3;
+}
+
+.card:hover .card__info {
+  background-color: transparent;
+  position: relative;
+}
+section.gellry {
+  padding: 30px 0px;
+}
+
+.card:hover .card__info-hover {
+  opacity: 1;
+}
+
+/* **************card*************** */
+figure {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  box-shadow: 0 0 32px -10px rgba(32, 32, 32, 0.08);
+}
+figure figcaption {
+  width: 100%;
+  text-align: center;
+  background-color: #6874E8;
+  padding: 0 60px 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(0);
+  transition: all 0.35s 0.35s cubic-bezier(0.1, 0.72, 0.4, 0.97);
+  will-change: bottom, background-color, transform, padding;
+  z-index: 1;
+  color: #EEEEEE;
+}
+figure figcaption::before, figure figcaption::after {
+  content: "";
+  width: 100%;
+  height: 120px;
+  background-color: inherit;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+figure figcaption::before {
+  top: -80px;
+  clip-path: ellipse(60% 80px at bottom center);
+}
+figure figcaption::after {
+  bottom: -80px;
+  clip-path: ellipse(60% 80px at top center);
+}
+figure figcaption h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+figure figcaption h2 span {
+  color: #FFC857;
+}
+main .card-two figure figcaption p {
+  font-size: 0.75rem;
+}
+figure figcaption a {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-decoration: none;
+  color: #FFC857;
+  opacity: 0;
+  padding: 10px;
+  transition: all 0.35s;
+}
+figure figcaption a:hover svg {
+  transform: translateX(4px);
+}
+figure figcaption a svg {
+  width: 18px;
+  margin-left: 4px;
+  transition: transform 0.3s;
+}
+figure img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+  transform: scale(1.2);
+  transition: 0.35s 0.35s transform cubic-bezier(0.1, 0.72, 0.4, 0.97);
+}
+figure:hover figcaption {
+  background-color: #202020;
+  bottom: 100%;
+  transform: translateY(100%);
+  padding: 50px 60px;
+  transition: all 0.35s cubic-bezier(0.1, 0.72, 0.4, 0.97);
+}
+figure:hover a {
+  opacity: 1;
+  transform: translate(-50%, 0);
+  transition: all 0.3s 0.35s cubic-bezier(0.1, 0.72, 0.4, 0.97);
+}
+figure img {
+  transform: scale(1);
+  transition: 0.35s 0.1s transform cubic-bezier(0.1, 0.72, 0.4, 0.97);
+}
+/* ***************************************end*************S */
+
+
+@media (max-width: 1199px) {
+  .icon-fix {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(154, 210, 224);
+    width: 100%;
+    z-index: 55;
+}
+.icon-fix .icon-img span {
+  display: none;
+}
+  .banner .banner-img::after {
+    content: "";
+    background-image: url("../image/banner-circal.png");
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 8%;
+    left: 16%;
+    width: 79%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .man-text h2::after {
+    content: url("/image/laine.png");
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    right: 12rem;
+    left: 0px;
+    transform: scale(0.8);
+  }
+
+  .man-text h2::after {
+    content: url("/image/laine.png");
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    right: 12rem;
+    left: 0px;
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 990px) {
+  
+  .banner-photo img{
+    max-width: 80%;
+
+  }
+  .banner-photo{
+    text-align: center;
+  }
+  .method .makd-text p {
+    margin-top: 30px;
+  }
+  .icon-fix .icon-img span {
+    display: none;
+  }
+  .banner .banner-img img {
+    width: 70%;
+  }
+
+  .man-sarvic {
+    position: relative;
+    margin-top: 97px;
+  }
+  .book-section .chet h4 {
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .header .facebook {
+    margin-top: 10px;
+    margin-right: 40px;
+    overflow: hidden;
+    position: relative;
+    left: -30px;
+  }
+
+  .icon-fix {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(154, 210, 224);
+    width: 100%;
+    z-index: 55;
+  }
+
+  .icon-fix .facebook {
+    margin-left: 60px;
+  }
+
+ 
+
+  .banner .banner-img::after {
+    content: "";
+    background-image: url("../image/banner-circal.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .man-text h2::after {
+    content: url("/image/laine.png");
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    right: 7rem;
+    left: 0px;
+    transform: scale(0.8);
+  }
+
+  .book-section .chet {
+    text-align: center;
+  }
+
+  .book-section .chet img {
+    width: 60%;
+    position: relative;
+    top: 30px;
+  }
+
+  .book-section .barish {
+    text-align: center;
+  }
+
+  .celendr .celend-img img {
+    width: 80%;
+    position: relative;
+    top: -6px;
+  }
+  .min-sarvic-img .button-raj .button-3 {
+    background-color: rgb(22, 56, 114);
+    position: relative;
+    /* bottom: 20px; */
+
+    margin-top: 20px;
+    padding: 9px 25px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+  .service {
+    margin-top: 7%;
+  }
+  .book-section .chet img {
+    width: 61%;
+    position: relative;
+    top: 37px;
+    left: 40px;
+  }
+  .button-raj {
+    display: flex;
+  }
+  .min-sarvic-img .last-btn {
+    margin-top: 19px;
+  }
+  .book-text h2::after {
+    content: url("/image/laine.png");
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    display: block;
+    transform: scale(0.7);
+}
+}
+@media (max-width: 912px) {
+  .min-sarvic-img .button-4 {
+    margin-left: 10px;
+    position: relative;
+    margin-top: 20px;
+    padding: 9px 25px;
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+}
+  .min-sarvic-img .button-raj .button-3 {
+    background-color: rgb(22, 56, 114);
+    position: relative;
+    /* bottom: 20px; */
+
+    margin-top: 20px;
+    padding: 9px 25px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+
+  .min-sarvic-img .goltar {
+    margin-bottom: 20px;
+  }
+  .min-sarvic-img .last-btn {
+    margin-top: 19px;
+  }
+  .locetion .forome .bg-about {
+    background-color: rgb(203, 238, 246);
+    padding-left: 10%;
+    padding: 16px 30px;
+  }
+
+  .method .makd-text p {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .layer-sravic .layer-button button {
+    font-size: 12px;
+  }
+  .cards {
+    margin-left: 20px;
+  }
+  .card-body a {
+    font-size: 10px;
+  }
+  .layer-sravic .layer-text {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .service {
+    margin-top: 7%;
+  }
+  .book-section .chet img {
+    width: 61%;
+    position: relative;
+    top: 37px;
+    left: 40px;
+  }
+  .button-raj {
+    display: flex;
+  }
+  .banner .banner-img {
+    position: relative;
+    width: 68%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    margin: 40px 0px;
+  }
+  .celendr {
+    width: 100%;
+    position: relative;
+    background-color: rgb(154, 210, 224);
+    border-radius: 10px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 0%;
+  }
+  .banner .banner-img::after {
+    content: "";
+    background-image: url('../image/banner-circal.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2px !important;
+    left: 98px !important;
+    width: 72% !important;
+    height: 100% !important;
+    text-align: center;
+    z-index: -1 !important;
+}
+}
+@media (max-width: 756px) {
+  .layer-text{
+    margin-top: 50px;
+  }
+  .celendr .celend-text {
+    margin-top: 0%;
+  }
+  .celendr .celend-text {
+    margin-top: 0%;
+  }
+  .min-sarvic-img .button-4 {
+    margin-left: 10px;
+    position: relative;
+    margin-top: 20px;
+    padding: 9px 25px;
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+}
+  .banner .banner-img::after {
+    content: "";
+    background-image: url(../image/banner-circal.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50px !important;
+    left: 56px !important;
+    width: 76% !important;
+    height: 100% !important;
+    z-index: -1 !important;
+  }
+  .banner .banner-img img {
+    width: 68%;
+    margin-left: 100px;
+    z-index: 0;
+    position: relative;
+    bottom: -10px;
+  }
+
+  .man-img img {
+    width: 70%;
+    position: relative;
+    inset: 18px 0px 41px 77px;
+  }
+
+  .man-text {
+    position: relative;
+    top: 0px;
+    text-align: center;
+  }
+
+  .man-text h2::after {
+    content: url("/image/laine.png");
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    right: 0rem;
+    left: 0px;
+    transform: scale(0.6);
+  }
+
+  .celendr .celend-img img {
+    width: 69%;
+    position: relative;
+    top: 25px;
+    left: 10%;
+  }
+
+  .celendr .celend-text {
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .input-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .min-sarvic-img .bg-image {
+    position: relative;
+    top: 4%;
+  }
+
+  .card22 {
+    margin-top: 10%;
+  }
+  .cards {
+    margin-left: 20px;
+    width: 94%;
+  }
+  .vishal-1 {
+    margin-top: 50px;
+}
+}
+
+@media (max-width: 414px) {
+  .banner-photo img{
+    max-width: 100%;
+    margin-top: 40px;
+
+  }
+  .book-text h2::after {
+    content: url("/image/laine.png");
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    display: block;
+    transform: scale(0.7);
+}
+  .man-text h2 {
+    font-size: 40px;
+    font-family: Montserrat, sans-serif;
+    margin: 20px;
+    margin-top: 14%;
+  }
+  .banner .banner-img img {
+    width: 80%;
+    position: relative;
+    top: 0px;
+    right: 40px;
+    text-align: center;
+  }
+  .celendr .celend-img img {
+    width: 69%;
+    position: relative;
+    top: 15px;
+    left: 18%;
+  }
+  .cards {
+    margin-left: 20px;
+    width: 86%;
+  }
+  .man-img img {
+    width: 70%;
+    position: relative;
+    inset: 18px 0px 41px 71px;
+  }
+  .book-section .chet {
+    text-align: center;
+  }
+  .book-section .chet img {
+    width: 60%;
+    position: relative;
+    top: 30px;
+    left: 44px;
+    text-align: center;
+  }
+  .icon-fix .icon-img span {
+    display: none;
+  }
+
+  .banner .banner-img::after {
+    content: "";
+    background-image: url('../image/banner-circal.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 24px !important;
+    left: 41px !important;
+    width: 84% !important;
+    height: 100%; /* Adjust the height as needed */
+    z-index: -1 !important;
+  }
+
+  .min-sarvic-img .bg-image {
+    position: relative;
+    top: 5%;
+  }
+
+  .min-sarvic-img .goltar {
+    padding-left: 40px;
+    overflow: hidden;
+    min-height: 419px;
+  }
+  .min-sarvic-img{
+    margin-left: 14px;
+  }
+  .min-sarvic-img .bg-image img {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .min-sarvic-img .bg-image {
+    background-color: rgb(154, 210, 224);
+    height: 415px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding-right: 0px;
+  }
+
+  .card22 .min-sarvic-img .bg-image111 {
+    background-color: rgb(154, 210, 224);
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding-right: 0px;
+  }
+
+  .card22 {
+    margin-top: 15%;
+  }
+
+  .contain111 {
+    margin-top: 7%;
+  }
+
+  .min-sarvic-img .last-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    font-size: 13px;
+  }
+  .Dialogico .prem img {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .Dialogico .vishal-1 {
+    margin-top: 18%;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 20px;
+  }
+  .Dialogico .vishal {
+    margin-top: 18%;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 20px;
+  }
+  .Dialogico .button-menu .button-faiv {
+    padding: 10px 20px;
+  }
+  .Dialogico .button-menu .button-six {
+    padding: 10px 20px;
+  }
+  .button-menu {
+    font-size: 10px;
+    display: flex;
+    text-align: center;
+  }
+  .method .mask-img img {
+    margin-left: 0px;
+  }
+  .kapu {
+    margin-top: 30px;
+  }
+  .card {
+    margin-top: 10%;
+    overflow: hidden;
+  }
+  .min-sarvic-img .button-4 {
+    margin-left: 10px;
+    position: relative;
+    margin-top: 20px;
+    padding: 9px 25px;
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+  figure img {
+    position: absolute;
+    top: 0;
+    left: 9px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+    transform: scale(1.2);
+    transition: 0.35s 0.35s transform cubic-bezier(0.1, 0.72, 0.4, 0.97);
+}
+}
+
+@media (max-width: 375px) {
+  figure img {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+    transform: scale(1.2);
+    transition: 0.35s 0.35s transform cubic-bezier(0.1, 0.72, 0.4, 0.97);
+}
+
+  .book-section .barish button {
+    background-color: rgb(22, 56, 114);
+    position: relative;
+    bottom: 25px;
+    margin-top: 20px;
+    padding: 9px 25px;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+  .book-text h2::after {
+    content: url("/image/laine.png");
+    overflow: hidden;
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    display: block;
+    transform: scale(0.7  );
+  }
+
+  .book-section {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50px;
+  }
+
+  .icon-fix .facebook {
+    display: flex;
+  }
+  .button-raj {
+    /* padding: 0px; */
+    font-size: 13px;
+  }
+  .min-sarvic-img .last-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+  }
+
+  .min-sarvic-img .last-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    font-size: 13px;
+  }
+  .gellry .last-btn {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .min-sarvic-img .button-4 {
+    margin-left: 10px;
+    position: relative;
+    margin-top: 20px;
+    padding: 9px 25px;
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+}
+}
+
